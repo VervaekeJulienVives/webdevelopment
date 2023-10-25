@@ -1,0 +1,13 @@
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li[data-menuitem] {
+    display: inline-block;
+    width: 150px;
+}
+
+ul li[data-menuitem] > a {
+    color: red;
+}
