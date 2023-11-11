@@ -91,45 +91,45 @@ th
     width: 200px;
 }
 
-.datagrid table
+.tabelvrienden table
 {
     border-collapse: collapse;
     width: 100%;
 }
-.datagrid
+.tabelvrienden
 {
     font: normal 12px/150% Arial, Helvetica, sans-serif;
     overflow: hidden;
     border: 1px solid #1E90FF;
     border-radius: 10px;
 }
-.datagrid table td, .datagrid table th
+.tabelvrienden table td, .tabelvrienden table th
 {
     padding: 5px 6px;
 }
-.datagrid table thead th
+.tabelvrienden table thead th
 {
     background-color:#1E90FF;
     color:#FFFFFF;
     font-size: 15px;
 }
-.datagrid table tbody td
+.tabelvrienden table tbody td
 {
     color: #1E90FF;
     border-left: 1px solid #F4F4F4;
     font-size: 12px;
 }
-.datagrid table tbody .alt td
+.tabelvrienden table tbody .alt td
 {
     background: #CFE5FF;
     color: #1E90FF;
 }
 
-.datagrid table tbody td:empty
+.tabelvrienden table tbody td:empty
 {
     background-color: red;
 }
-.datagrid table tbody .alt td:empty
+.tabelvrienden table tbody .alt td:empty
 {
     background-color: red;
 }
