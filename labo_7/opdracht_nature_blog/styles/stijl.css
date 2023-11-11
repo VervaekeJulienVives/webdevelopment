@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-image: url("../images/header.jpg");
     background-size: cover;
-    height: 90px;
+    height: 100px;
     padding-left: 0.6em;
     padding-top: 0.1em;
 }
@@ -12,7 +12,7 @@ body
 {
     margin: 0 auto;
     width: 95%;
-    font-family: Verdana, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 section
