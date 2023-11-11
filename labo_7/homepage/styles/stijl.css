@@ -4,7 +4,7 @@ th,td{border: 1px solid dodgerblue; text-align: center;}
 
 header
 {
-    background-image: url('../images/headerachtergrond.png'); height: 205px;
+    background-image: url('../images/f2cfebb94b3a6e282d1f95d471e93f36.jpg'); height: 205px;
 }
 
 aside
@@ -45,12 +45,12 @@ h1
     width: 250px; color: dodgerblue;
 }
 
-.midden
+.tussenstuk
 {
     background-image: url('../images/f2cfebb94b3a6e282d1f95d471e93f36.jpg'); margin-bottom: 50px; height: 205px
 }
 
-.midden h2
+.tussenstuk h2
 {
     text-align: center; padding-top:100px; color:white;
 }
