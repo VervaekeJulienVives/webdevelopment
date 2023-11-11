@@ -1,8 +1,11 @@
 .header
 {
-    background-image: url("../images/header.jpg");
-    height: 100px;
     background-repeat: no-repeat;
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    height: 90px;
+    padding-left: 0.6em;
+    padding-top: 0.1em;
 }
 .header h1
 {
