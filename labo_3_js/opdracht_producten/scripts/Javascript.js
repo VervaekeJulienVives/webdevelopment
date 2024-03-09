@@ -1,6 +1,6 @@
 const setup = () => {
-    let herberekenen = document.getElementsByClassName("herberekenen")
-    herberekenen[0].addEventListener("click", update)
+    let Reset = document.getElementsByClassName("Reset")
+    Reset[0].addEventListener("click", update)
 }
 window.addEventListener("load", setup);
 

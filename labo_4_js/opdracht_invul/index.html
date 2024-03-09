@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
+<form method="post">
+    <fieldset>
+    <div class="form">
+        <label for="firstname">First name*:</label>
+        <input type="text" required id="firstname" name="firstname" autofocus="autofocus" placeholder="Your first name">
+    </div>
+    <div class="form">
+        <label for="lastname">Last name*:</label>
+        <input type="text" required id="lastname" name="lastname" placeholder="Your first name">
+    </div>
+    <div class="form">
+        <label>Which sport do you train?</label>
+    </div>
+    <div class="form">
+        <label for="running">Running</label>
+        <input type="checkbox" name="running" id="running">
+    </div>
+    <div class="form">
+        <label for="swimming">Swimming</label>
+        <input type="checkbox" name="swimming" id="swimming">
+    </div>
+    <div class="form">
+        <label for="rowing">Rowing</label>
+        <input type="checkbox" name="rowing" id="rowing">
+    </div>
+    <div class="form">
+        <label>What is your gender?</label>
+    </div>
+    <div class="form">
+        <input type="radio" name="male" id="male"/>
+        <label for="male">Male</label>
+    </div>
+    <div class="form">
+        <input type="radio" name="female" id="female"/>
+        <label for="female">Female</label>
+    </div>
+    <div class="form">
+        <label for="movie">Favorite Movie:</label>
+        <input type="text" id="movie" name="movie">
+    </div>
+    <div class="form">
+        <label for="quote">Favorite quote:</label>
+        <input type="text" placeholder="Write your favorite quote" name="quote" id="quote">
+    </div>
+    <div class="form">
+        <label for="password">Password*:</label>
+        <input type="password" required name="password" id="password">
+    </div>
+    <div class="form">
+        <label>Favorite food:</label>
+        <select name="eten" size="1">
+            <option id="hamburger">Hamburger </option>
+            <option id="Kapsalon">Kapsalon </option>
+            <option id="Kip">Kip </option>
+        </select>
+    </div>
+    <div class="form">
+        <input type="file" name="file">
+    </div>
+    <div class="form">
+        <label for="email">Email adress:</label>
+        <input type="email" placeholder="Enter your email adress" name="email" id="email">
+    </div>
+    <div class="form">
+        <label for="url">Favorite site:</label>
+        <input type="url"  placeholder="Enter the URL of your favorite site" name="site" id="url">
+    </div>
+    <div class="form">
+        <label for="number1-10">Favorite number between 1-10:</label>
+        <input type="number" max="10" min="1" name="number1-10" id="number1-10">
+    </div>
+    <div class="form">
+        <label for="number11-1000">Favorite number between 11-1000:</label>
+        <input type="range" max="1000" min="11" name="number11-1000" id="number11-1000">
+    </div>
+    <div class="form">
+        <label for="date">When were you born:</label>
+        <input type="date" name="date" id="date">
+    </div>
+    <div class="form">
+        <label for="zipcode">Belgian zip code reg number*:</label>
+        <input type="text" pattern="^(?!999[3-9]|9999)\d{4}$" required name="zipcode" id="zipcode" placeholder="9999">
+        // gevonden met Arthur Van Kwikenborne
+    </div>
+    <div class="form">
+        <label for="color">What is your favorite color:</label>
+        <input type="color" name="color" id="color">
+    </div>
+    <div class="form">
+        <label for="search">Search for something:</label>
+        <input type="search" name="search" id="search">
+    </div>
+    <div class="form">
+        <input type="submit" name="submit">
+    </div>
+    </fieldset>
+</form>
+
+</body>
+</html>
