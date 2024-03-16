@@ -1,0 +1,9 @@
+.radio{
+    display: flex;
+}
+
+.bestellingen {
+    display: flex;
+    align-items: center;
+}
+

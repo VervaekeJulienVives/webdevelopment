@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Title</title>
+</head>
+<body>
+
+<form id="validatieFormulier">
+    <div>
+        <label for="firstNameInput">Voornaam:</label>
+        <input type="text" id="firstNameInput" name="voornaam">
+        <div id="firstNameError" class="fout"></div>
+    </div>
+
+    <div>
+        <label for="lastNameInput">Achternaam:</label>
+        <input type="text" id="lastNameInput" name="achternaam">
+        <div id="lastNameError" class="fout"></div>
+    </div>
+
+    <div>
+        <label for="birthdateInput">Geboortedatum:</label>
+        <input type="text" id="birthdateInput" name="geboortedatum" placeholder="JJJJ-MM-DD">
+        <div id="birthdateError" class="fout"></div>
+    </div>
+
+    <div>
+        <label for="emailInput">E-mail:</label>
+        <input type="email" id="emailInput" name="email">
+        <div id="emailError" class="fout"></div>
+    </div>
+
+    <div>
+        <label for="childrenInput">Aantal Kinderen:</label>
+        <input type="number" id="childrenInput" name="aantalKinderen" min="0">
+        <div id="childrenError" class="fout"></div>
+    </div>
+
+    <button type="button" id="validateBtn">Valideren</button>
+</form>
+<script type="text/javascript" charset="utf-8" src="scripts/code.js"></script>
+</body>
+</html>
